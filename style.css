@@ -10,7 +10,7 @@ body {
 }
 
 /* GROUP CONTAINER */
-#group1, #group2, #group3, #group4 {
+#group1, #group2, #group3, #group4,#group5 {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
     gap: 22px;
@@ -83,4 +83,5 @@ body {
 a{
     text-decoration: none;
     color: white;
+
 }
